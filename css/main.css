@@ -14,6 +14,9 @@ article {
 
 body {
   font-family: "Libre Baskerville", serif;
+  color: #222;
+  margin: 0;
+  padding: 0 1em 0 1em;
 }
 
 header {
@@ -21,7 +24,7 @@ header {
   text-align: left;
   padding: 1.5em;
   margin: 0;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 10px 10px;
 }
 
 .chapter-num {
@@ -47,9 +50,11 @@ p:nth-child(2)::first-line {
 
 img {
   border: solid;
-  border-color: #222;
+  border-color: #259f95;
+  border-width: thin;
   border-radius: 15px;
   width: 100%;
+  display: block;
 }
 
 footer {
@@ -60,5 +65,5 @@ footer {
   text-align: center;
   padding: 1.5em;
   margin: 0;
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
